@@ -1,0 +1,20 @@
+{
+    "name": "phpjg/enum",
+    "description": "Extending enums",
+    "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Galek"
+        }
+    ],
+    "minimum-stability": "dev"
+}
