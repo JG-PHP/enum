@@ -17,4 +17,10 @@ interface Enum extends BackedEnum
 	 * @return static|null
 	 */
 	public static function tryCreate(int|string $value): ?static;
+
+	/**
+	 * @param int|string $value
+	 * @throws ValueError
+	 */
+	public static function validate(int|string $value): void;
 }
