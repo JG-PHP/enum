@@ -7,6 +7,7 @@ interface Enum extends BackedEnum
 	 * @desc Replacing from method
 	 * @param int|string $value
 	 * @return static
+	 * @throws ValueError
 	 */
 	public static function create(int|string $value): static;
 
